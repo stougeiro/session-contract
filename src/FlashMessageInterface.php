@@ -7,7 +7,7 @@
     {
         public function get(string $key): mixed;
 
-        public function set(string $key, mixed $message, int $age = 1): void;
+        public function set(string $key, mixed $message, int $age = 1): FlashMessageInterface;
 
         public function exists(string $_key): bool;
 
