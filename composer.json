@@ -1,6 +1,6 @@
 {
     "name": "stougeiro/session-contract",
-    "description": "",
+    "description": "Minimal, framework‑agnostic session and flash message contracts for PHP applications. Designed for both traditional PHP‑FPM and Swoole servers, enabling pluggable, storage‑independent session handling with zero friction.",
     "type": "library",
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -12,6 +12,20 @@
         }
     ],
     "keywords": [
+        "session",
+        "flash",
+        "contract",
+        "interface",
+        "php",
+        "session-interface",
+        "flash-interface",
+        "session-handler",
+        "session-abstraction",
+        "framework-agnostic",
+        "swoole",
+        "php-fpm",
+        "stateless",
+        "stateful"
     ],
     "support": {
         "issues": "https://github.com/stougeiro/session-contract/issues",
