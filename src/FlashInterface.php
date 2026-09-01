@@ -3,17 +3,14 @@
     namespace STDW\Contract\Session;
 
 
-    interface SessionInterface
+    interface FlashInterface
     {
-        /** @return string 
-         */
-        public function getId(): string;
-
         /**
          * @param string $key 
-         * @return bool 
+         * @param mixed $value 
+         * @return void 
          */
-        public function has(string $key): bool;
+        public function set(string $key, mixed $value): void;
 
         /**
          * @param string $key 
@@ -24,16 +21,9 @@
 
         /**
          * @param string $key 
-         * @param mixed $value 
-         * @return void 
+         * @return bool 
          */
-        public function set(string $key, mixed $value): void;
-
-        /**
-         * @param string $key 
-         * @return void 
-         */
-        public function remove(string $key): void;
+        public function has(string $key): bool;
 
         /** @return void 
          */
