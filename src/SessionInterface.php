@@ -7,7 +7,7 @@
     {
         /** @return string 
          */
-        public function getId(): string;
+        public function id(): string;
 
         /**
          * @param string $key 
