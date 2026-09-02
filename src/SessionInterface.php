@@ -5,6 +5,10 @@
 
     interface SessionInterface
     {
+        /** @return void 
+         */
+        public function start(): void;
+
         /** @return string 
          */
         public function id(): string;
@@ -38,4 +42,8 @@
         /** @return void 
          */
         public function clear(): void;
+
+        /** @return void 
+         */
+        public function destroy(): void;
     }
