@@ -39,11 +39,11 @@
 
         /** @return bool
          */
-        public function regeneration(): bool;
+        public function guardRegeneration(): bool;
 
         /** @return int
          */
-        public function regenerationTime(): int;
+        public function guardRegenerationTime(): int;
 
         /** @return array<string, mixed>
          */
