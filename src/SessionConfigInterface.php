@@ -37,13 +37,9 @@
          */
         public function gcDivisor(): int;
 
-        /** @return bool
-         */
-        public function guardRegeneration(): bool;
-
         /** @return int
          */
-        public function guardRegenerationTime(): int;
+        public function guardRegeneration(): int;
 
         /** @return array<string, mixed>
          */
